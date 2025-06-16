@@ -1,15 +1,11 @@
 ---
 layout: default
-title: 英语学习日记
-permalink: /XL_daily_english/
+title: "我的英语学习日记"
 ---
 
 # 我的英语学习日记
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+欢迎来到我的英语学习日记！
+
+- [2024-06-14](audio/2025-06-16-sentence1.mp3)
+- [2024-06-15](audio/2025-06-16-sentence2.mp3)
