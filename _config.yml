@@ -1,0 +1,16 @@
+title: 我的英语学习日记
+baseurl: "" # 根路径
+url: "https://long-lin-omics.github.io"
+paginate: 5
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+
+# posts 默认已经支持，确认输出开启
+collections:
+  posts:
+    output: true
